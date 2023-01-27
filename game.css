@@ -1,0 +1,238 @@
+body{
+    background-image: url("2771314.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+  
+  img{
+      width: 100px;;
+      height: 100px;
+      position: absolute;
+      bottom: 50%;
+      
+      }
+      #img1{
+        left: 10%;
+        bottom: 10%;
+        animation: bird1  1s linear infinite;
+        animation-duration: 6s;
+        animation-play-state: running;
+      }
+      #img2{
+        right: 30%;
+        bottom: 30%;
+        animation: bird2  1s linear infinite;
+        animation-duration: 6s;
+        animation-play-state: running;
+      }
+      #img3{
+        left: 20%;
+        bottom: 20%;
+        animation: bird3  1s linear infinite;
+        animation-duration: 6s;
+        animation-play-state: running;
+      }
+      #img4{
+        right: 40%;
+        bottom: 40%;
+        animation: bird4  1s linear infinite;
+        animation-duration: 6s;
+        animation-play-state: running;
+      }
+      #img5{
+        right: 20%;
+        bottom: 20%;
+        animation: bird5  1s linear infinite;
+        animation-duration: 6s;
+        animation-play-state: running;
+      }
+      
+      #img6{
+        left: 30%;
+        bottom: 30%;
+        animation: bird6  1s linear infinite;
+        animation-duration: 6s;
+        animation-play-state: running;
+      }
+      #img7{
+        left: 40%;
+        bottom: 40%;
+        animation: bird7  1s linear infinite;
+        animation-duration: 6s;
+        animation-play-state: running;
+      }
+      #img8{
+        left: 40%;
+        bottom: 40%;
+        animation: bird8  1s linear infinite;
+        animation-duration: 6s;
+        animation-play-state: running;
+      }
+      #img9{
+        right: 20%;
+        bottom: 20%;
+        animation: bird9  1s linear infinite;
+        animation-duration: 6s;
+        animation-play-state: running;
+      }
+      #img0{
+        right: 40%;
+        bottom: 40%;
+        bottom: 40%;
+        animation: bird0  1s linear infinite;
+        animation-duration: 6s;
+        animation-play-state: running;
+      }
+      @keyframes bird1 {
+        10%{left: 20%; bottom: 50%;}
+        30%{left: 30%; bottom: 50%;}
+        50%{left: 40%; bottom: 70%;}
+        70%{left: 60%; bottom: 30%;}
+        100%{left: 100%; bottom: 90%;}
+
+        
+      }
+      
+      @keyframes bird2 {
+        10%{right: 20%; bottom: 50%;}
+        30%{right: 30%; bottom: 40%;}
+        50%{right: 25%; bottom: 60%;}
+        70%{right: 90%; bottom: 80%;}
+        100%{right: 100%; bottom: 90%;}
+      }
+      @keyframes bird3 {
+        10%{left: 30%; bottom: 53%;}
+        30%{left: 50%; bottom: 40%;}
+        50%{left: 75%; bottom: 60%;}
+        70%{left: 90%; bottom: 80%;}
+        100%{left: 100%; bottom: 90%;}
+      }
+      @keyframes bird4 {
+        10%{right: 30%; bottom: 53%;}
+        30%{right: 40%; bottom: 40%;}
+        50%{right: 60%; bottom: 60%;}
+        70%{right: 80%; bottom: 80%;}
+        100%{right: 100%; bottom: 90%;}
+      }
+      @keyframes bird5 {
+        10%{right: 15%; bottom: 55%;}
+        30%{right: 25%; bottom: 40%;}
+        50%{right: 35%; bottom: 60%;}
+        70%{right: 45%; bottom: 80%;}
+        100%{right: 100%; bottom: 90%;}
+      }
+      @keyframes bird6 {
+        10%{left: 40%; bottom: 55%;}
+        30%{left: 50%; bottom: 50%;}
+        50%{left: 70%; bottom: 70%;}
+        70%{left: 80%; bottom: 30%;}
+        100%{left: 100%; bottom: 90%;}
+
+        
+      }
+      @keyframes bird7 {
+        10%{left: 50%; bottom: 55%;}
+        30%{left: 70%; bottom: 50%;}
+        50%{left: 90%; bottom: 70%;}
+        70%{left: 90%; bottom: 30%;}
+        100%{left: 100%; bottom: 90%;}
+
+        
+      }
+      @keyframes bird8 {
+        10%{left: 30%; bottom: 53%;}
+        30%{left: 40%; bottom: 40%;}
+        50%{left: 60%; bottom: 60%;}
+        70%{left: 80%; bottom: 80%;}
+        100%{left: 100%; bottom: 90%;}
+      }
+      @keyframes bird9 {
+        10%{right: 50%; bottom: 55%;}
+        30%{right: 70%; bottom: 40%;}
+        50%{right: 90%; bottom: 60%;}
+        70%{right: 90%; bottom: 80%;}
+        100%{right: 100%; bottom: 90%;}
+      }
+      @keyframes bird0 {
+        10%{right: 40%; bottom: 50%;}
+        30%{right: 60%; bottom: 40%;}
+        50%{right: 85%; bottom: 60%;}
+        70%{right: 95%; bottom: 80%;}
+        100%{right: 100%; bottom: 90%;}
+      }
+      #bomb
+      {
+        width: 70px;
+        height: 70px;
+      
+      }
+      .flip
+            {
+                transform:rotateX('180');
+            }
+            
+    .modal {
+      display: none; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Sit on top */
+      padding-top: 100px; /* Location of the box */
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    }
+    
+    /* Modal Content */
+    .modal-content {
+      background-color: #fefefe;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%;
+    }
+    
+    /* The Close Button */
+    .close {
+      color: #aaaaaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    
+    .close:hover,
+    .close:focus {
+      color: #000;
+      text-decoration: none;
+      cursor: pointer;
+    }    
